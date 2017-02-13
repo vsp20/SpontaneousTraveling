@@ -1,0 +1,92 @@
+<BrowseQuotesResponseAPIDto xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Currencies>
+<CurrencyDto>
+<Code>USD</Code>
+<Symbol>$</Symbol>
+<ThousandsSeparator>,</ThousandsSeparator>
+<DecimalSeparator>.</DecimalSeparator>
+<SymbolOnLeft>true</SymbolOnLeft>
+<SpaceBetweenAmountAndSymbol>false</SpaceBetweenAmountAndSymbol>
+<RoundingCoefficient>0</RoundingCoefficient>
+<DecimalDigits>2</DecimalDigits>
+</CurrencyDto>
+</Currencies>
+<Quotes>
+<QuoteDto>
+<QuoteId>1</QuoteId>
+<MinPrice>405</MinPrice>
+<Direct>true</Direct>
+<OutboundLeg>
+<CarrierIds>
+<int>1793</int>
+</CarrierIds>
+<OriginId>42995</OriginId>
+<DestinationId>65368</DestinationId>
+<DepartureDate>2016-12-30T00:00:00</DepartureDate>
+</OutboundLeg>
+<QuoteDateTime>2016-11-21T00:46:38</QuoteDateTime>
+</QuoteDto>
+<QuoteDto>
+<QuoteId>2</QuoteId>
+<MinPrice>299</MinPrice>
+<Direct>false</Direct>
+<OutboundLeg>
+<CarrierIds>
+<int>1721</int>
+</CarrierIds>
+<OriginId>42995</OriginId>
+<DestinationId>65368</DestinationId>
+<DepartureDate>2016-12-30T00:00:00</DepartureDate>
+</OutboundLeg>
+<QuoteDateTime>2016-11-20T17:48:25</QuoteDateTime>
+</QuoteDto>
+</Quotes>
+<Places>
+<PlaceDto>
+<PlaceId>42995</PlaceId>
+<IataCode>BOS</IataCode>
+<Name>Boston Logan International</Name>
+<Type>Station</Type>
+<SkyscannerCode>BOS</SkyscannerCode>
+<CityName>Boston</CityName>
+<CityId>BOSA</CityId>
+<CountryName>United States</CountryName>
+</PlaceDto>
+<PlaceDto>
+<PlaceId>65368</PlaceId>
+<IataCode>LAX</IataCode>
+<Name>Los Angeles International</Name>
+<Type>Station</Type>
+<SkyscannerCode>LAX</SkyscannerCode>
+<CityName>Los Angeles</CityName>
+<CityId>LAXA</CityId>
+<CountryName>United States</CountryName>
+</PlaceDto>
+</Places>
+<Carriers>
+<CarriersDto>
+<CarrierId>851</CarrierId>
+<Name>Alaska Airlines</Name>
+</CarriersDto>
+<CarriersDto>
+<CarrierId>870</CarrierId>
+<Name>jetBlue</Name>
+</CarriersDto>
+<CarriersDto>
+<CarrierId>1467</CarrierId>
+<Name>Spirit Airlines</Name>
+</CarriersDto>
+<CarriersDto>
+<CarrierId>1721</CarrierId>
+<Name>Sun Country Airlines</Name>
+</CarriersDto>
+<CarriersDto>
+<CarrierId>1793</CarrierId>
+<Name>United</Name>
+</CarriersDto>
+<CarriersDto>
+<CarrierId>1864</CarrierId>
+<Name>Virgin America</Name>
+</CarriersDto>
+</Carriers>
+</BrowseQuotesResponseAPIDto>
